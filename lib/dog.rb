@@ -1,16 +1,11 @@
 class Dog
 
-  #def initialize(name, breed)
-    #@name = name
-    #@breed = breed
-  #end
-
   def name
     @name
   end
 
   def name= (dog_name)
-    @name = dog_name.strip
+    @name = dog_name
   end
 
   def breed
@@ -18,7 +13,7 @@ class Dog
   end
 
   def breed= (breed_type)
-    @breed = breed_type.strip
+    @breed = breed_type
   end
 
 end
